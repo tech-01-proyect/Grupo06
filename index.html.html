@@ -1,0 +1,99 @@
+<!doctype html>
+  <head>
+<style>
+body {
+        background-color: #a559f5; 
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+header {
+       background-color:white;
+        color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between; /* Separa los elementos dentro de header */
+        align-items: center;
+}
+
+ h1{
+      text-align: center;
+      color:#bd9be4;
+      font-family: Helvetica, sans-serif;
+      background-color:#31194c;
+      padding: 20px;
+      flex-grow: 1; /* Hace que el h1 ocupe el máximo espacio posible */
+      text-align: center;
+    }
+
+  p {
+      text-align:right;
+      font-family: Arial, sans-serif;
+      color:#62b0e3;
+      white-space: pre; 
+     }
+ 
+    
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      background-color:#51455f;
+      border-radius:40px;
+      padding: 13px;
+      color: #bd9be4;
+      text-decoration: none;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      height: 70%; /* Asegura que el botón ocupe todo el espacio disponible dentro de la celda */
+      margin: 30px 0; /* Da un poco de margen entre los botones */
+        width: 85%; /* Asegura que los botones ocupen el 100% del contenedor */
+        box-sizing: border-box; 
+        font-size:30px;
+    }
+
+  
+    a:hover {
+      background-color: rgb(15, 140, 70);
+    }
+
+    /* Contenedor para los botones */
+    article {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas, cada una con el mismo tamaño */
+      gap: 37px; /* Espacio entre los botones 
+      padding: 20px;
+      justify-items: center; 
+      height: 100%;
+    }
+
+    
+    article a {
+      width: 75%; 
+      height: 100px; 
+    }
+  </style>
+  </head>
+  <body>
+<header>
+<h1>GLAMK</h1>
+<p>
+Luz Recinos
+Krysthel Coronado
+Minerva Monzon
+Alvaro Solorzano
+Guadalupe Ramirez
+</p>
+</header>
+<article>
+<a href="Paginas/Literatura.html.">Literatura</a>
+<a href="Paginas/Bio-Quimica.html" class="boton4">Bio-quimica</a>
+<a href="Paginas/Fisica.html" class="boton5">Fisica</a>
+<a href="Paginas/Estadistica.html" class="boton7">Estadistica</a>
+<a href="Paginas/Ingles.html" class="boton8">Ingles</a>
+<a href="Paginas/Ex art.html" class="boton9">Expresion Artistica</a>
+<a href="Paginas/Valores.html" class="boton10">Valores</a>
+</article>
+  </body>
+</html>
